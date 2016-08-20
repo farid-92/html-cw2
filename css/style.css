@@ -374,15 +374,16 @@ body{
     font-size: 15px;
     margin-bottom: 14px;
 }
+.flickr-block .flickr-gallery{
+    overflow: hidden;
+    margin-right: -11px;
+}
 .flickr-block a{
     display: block;
     float: left;
     width: 60px;
     height: 50px;
     margin: 0 11px 10px 0;
-}
-.flickr-block a:nth-child(3n+1){
-    margin: 0 0 10px 0;
 }
 .flickr-block img{
     height: auto;
