@@ -126,7 +126,7 @@ body{
 .pic-block > a{
     display: block;
     width: 332px;
-    height: 31px;
+    min-height: 31px;
     position: absolute;
     bottom: 18px;
     left: 20px;
@@ -142,6 +142,7 @@ body{
 .information-block{
     float: left;
     width: 220px;
+    min-width:150px;
     
 }
 .post-block{
@@ -172,19 +173,24 @@ body{
     height:auto;
 }
 .post-info{
-    margin-left:70px;
+    float: left;
+    width: 130px;
+    padding-left: 10px;
+
 }
 .post-info p{
     font-size: 13px;
     line-height: 17px;
     letter-spacing:0.3px;
     color: #717171;
+
 }
 .post-info a{
     font-family: Verdana, sans-serif;
     font-size: 9px;
     color: #7e7e7e;
     font-style: italic;
+
 }
 .post-comment{
     padding-bottom: 11px;
@@ -338,6 +344,7 @@ body{
 .sidebar{
     float: left;
     width: 220px;
+    min-width: 80px;
 }
 .archives{
     background: #fff;
@@ -376,7 +383,7 @@ body{
 }
 .flickr-block .flickr-gallery{
     overflow: hidden;
-    margin-right: -11px;
+    margin-right: -12px;
 }
 .flickr-block a{
     display: block;
